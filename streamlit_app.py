@@ -42,11 +42,22 @@ if (uncertainity_rb == 'Medium' and complexity_rb == 'Large' and effort_rb == 'S
 	story_points = 5
 if (uncertainity_rb == 'Medium' and complexity_rb == 'Large' and effort_rb == 'Medium'):
 	story_points = 8
+if (uncertainity_rb == 'Medium' and complexity_rb == 'Large' and effort_rb == 'Large'):
+	story_points = 13
+
+
+
 ########
+if (uncertainity_rb == 'Large' and complexity_rb == 'Small' and effort_rb == 'Small'):
+	story_points = 8
+if (uncertainity_rb == 'Large' and complexity_rb == 'Small' and effort_rb == 'Medium'):
+	story_points = 8
+if (uncertainity_rb == 'Large' and complexity_rb == 'Small' and effort_rb == 'Large'):
+	story_points = 13
 if (uncertainity_rb == 'Large' and complexity_rb == 'Medium' and effort_rb == 'Small'):
 	story_points = 8
 if (uncertainity_rb == 'Large' and complexity_rb == 'Medium' and effort_rb == 'Medium'):
-	story_points = 8
+	story_points = 13
 if (uncertainity_rb == 'Large' and complexity_rb == 'Medium' and effort_rb == 'Large'):
 	story_points = 13
 if (uncertainity_rb == 'Large' and complexity_rb == 'Large' and effort_rb == 'Small'):
